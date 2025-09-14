@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="hero-bg.jpg" />
+  <title>Florent BALKOULGA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="loading-screen" id="loading-screen">
+    <div class="loading-content">
+      <div class="loading-logo">
+        <div class="logo-animation">
+          <span class="logo-letter">F</span>
+          <span class="logo-letter">L</span>
+          <span class="logo-letter">O</span>
+          <span class="logo-letter">R</span>
+          <span class="logo-letter">E</span>
+          <span class="logo-letter">N</span>
+          <span class="logo-letter">T</span>
+        </div>
+      </div>
+      <div class="loading-bar">
+        <div class="loading-progress" id="loading-progress"></div>
+      </div>
+      <p class="loading-text">Chargement...</p>
+    </div>
+  </div>
+  <div id="main-content" style="display: none;">
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="profile.png" alt="Florent BALKOULGA" class="profile-img" />
+        <h2>Florent <strong>BALKOULGA</strong></h2>
+        <div class="social-icons">
+          <a href="https://wa.me/237673713115" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#25D366" viewBox="0 0 24 24">
+              <path
+                d="M20.52 3.48A11.91 11.91 0 0012 0C5.37 0 0 5.37 0 12a11.9 11.9 0 001.64 6.01L0 24l6.12-1.6A11.91 11.91 0 0012 24c6.63 0 12-5.37 12-12a11.91 11.91 0 00-3.48-8.52zm-8.52 17.4a9.9 9.9 0 01-5.33-1.56l-.38-.23-3.64.95.97-3.55-.25-.37a9.9 9.9 0 1111.63 4.76zm5.3-6.1c-.29-.15-1.7-.84-1.96-.94-.26-.1-.45-.15-.64.15s-.73.94-.9 1.13-.33.22-.62.07a8.3 8.3 0 01-2.44-1.5c-.9-.9-1.5-2-1.68-2.3s0-.35.1-.5c.1-.15.26-.33.39-.5a.7.7 0 00.1-.5c0-.15-.64-1.55-.88-2.12-.23-.56-.46-.48-.64-.48-.17 0-.37 0-.56 0a.9.9 0 00-.66.33c-.22.22-.84.82-.84 2s.86 2.3.98 2.46c.12.15 1.7 2.6 4.12 3.64a14.1 14.1 0 001.9.8 2.3 2.3 0 002.6-2.3c0-1.2-.87-1.76-1.16-1.9z" />
+            </svg>
+          </a>
+          <a href="tel:+237697332046" aria-label="Telephone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#dbec42" viewBox="0 0 24 24">
+              <path
+                d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.55.57 1 1 0 011 1v3.61a1 1 0 01-1 1A16 16 0 014 5a1 1 0 011-1h3.61a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.21 1.11z" />
+            </svg>
+          </a>
+          <a href="mailto:bfo226@gmail.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#d3253c" viewBox="0 0 24 24">
+              <path
+                d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/florent-balkoulga/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#2553d3" viewBox="0 0 24 24">
+              <path
+                d="M20.45 20.45h-3.56v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.4-2.07 2.85v5.5H9.02V9h3.42v1.56h.05a3.75 3.75 0 013.37-1.85c3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 11.01-4.14 2.07 2.07 0 01-.01 4.14zM6.88 20.45H3.8V9h3.08v11.45z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#home"><i class="icon-home">🏠</i> Accueil</a></li>
+          <li><a href="#about"><i class="icon-about">👤</i> A propos de moi</a></li>
+          <li><a href="#skills"><i class="icon-resume">📄</i> Compétences</a></li>
+          <li><a href="#awards"><i class="icon-awards">🏆</i> Distinctions</a></li>
+          <li><a href="#projects"><i class="icon-portfolio">📁</i> Portfolio</a></li>
+          <li><a href="#service"><i class="icon-services">🛠️</i> Services</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="main-content-wrapper">
+      <main class="main-section" id="home">
+        <!-- Floating Tech Icons -->
+        <div class="floating-tech-icons">
+          <div class="tech-icon">💻</div>
+          <div class="tech-icon">📱</div>
+          <div class="tech-icon">🤖</div>
+          <div class="tech-icon">☁️</div>
+          <div class="tech-icon">🐳</div>
+          <div class="tech-icon">⚛️</div>
+          <div class="tech-icon">🟢</div>
+          <div class="tech-icon">🐍</div>
+          <div class="tech-icon">🌐</div>
+          <div class="tech-icon">🔧</div>
+          <div class="tech-icon">📊</div>
+          <div class="tech-icon">🚀</div>
+        </div>
+
+        <!-- Texte -->
+        <div class="main-text">
+          <h2>Florent <span class="highlight">BALKOULGA</span></h2>
+          <h1>Je suis un <span id="typing" class="typing"></span></h1>
+
+          <!-- Boutons CTA -->
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">Portfolio</a>
+            <a href="#contact" class="btn btn-secondary">Contact</a>
+          </div>
+        </div>
+      </main>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section">
+        <div class="container about-container">
+          <div class="about-left">
+            <img src="profile.png" alt="Florent BALKOULGA" class="about-profile-img">
+          </div>
+          <div class="about-right">
+            <h2>A Propos de moi</h2>
+            <p>
+              <span class="highlight">Expatrié</span> et ancien membre d’un <span class="highlight">centre de
+                recherche</span> en <span class="highlight">logiciels</span> pour l’<span
+                class="highlight">assurance</span> et la <span class="highlight">banque</span>, j’ai mené des <span
+                class="highlight">projets web et mobiles</span>, déployé des <span class="highlight">chatbots</span> et
+              contribué à des <span class="highlight">refontes d’infrastructures</span>.
+            </p>
+
+            <p>
+              Ces missions ont renforcé mes <span class="highlight">compétences</span> (<span
+                class="highlight">web</span>, <span class="highlight">mobile</span>, <span
+                class="highlight">systèmes</span>, <span class="highlight">bases de données</span>, <span
+                class="highlight">IA</span>) et ma <span class="highlight">vision stratégique</span> des <span
+                class="highlight">enjeux numériques</span>.
+            </p>
+
+            <p>
+              J’ai travaillé avec des <span class="highlight">équipes</span> en <span class="highlight country">France
+                🇫🇷</span>, <span class="highlight country">Ukraine 🇺🇦</span>, <span class="highlight country">Inde
+                🇮🇳</span>, <span class="highlight country">Allemagne 🇩🇪</span> et en <span
+                class="highlight country">Afrique</span>, développant <span class="highlight">adaptabilité</span>, <span
+                class="highlight">communication internationale</span> et <span class="highlight">collaboration</span>.
+            </p>
+
+            <div class="about-info-grid">
+              <div class="info-column">
+                <p><strong>Anniversaire:</strong> 24 Novembre</p>
+                <p><strong>WhatsApp:</strong> +237 673 71 31 15</p>
+                <p><strong>Téléphone:</strong> +237 697 33 20 46</p>
+                <p><strong>Ville:</strong> Yaoundé, Cameroun</p>
+              </div>
+              <div class="info-column">
+                <p><strong>Age:</strong> 30</p>
+                <p><strong>Niveau:</strong> Master</p>
+                <p><strong>Email:</strong> bfo226@gmail.com</p>
+                <p><strong>Freelance:</strong> Disponible</p>
+              </div>
+            </div>
+
+            <!-- New Stats Section -->
+            <div class="stats-section">
+              <div class="stat-item">
+                <div class="stat-icon">😊</div>
+                <div class="stat-number">8+</div>
+                <div class="stat-label">Années d'expérience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">📋</div>
+                <div class="stat-number">40+</div>
+                <div class="stat-label">Projets</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">🎧</div>
+                <div class="stat-number">20+</div>
+                <div class="stat-label">Collaborations</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills-section">
+        <div class="container skills-container">
+          <h2>Mes Compétences</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">💻</div>
+              <h3>Développement Web</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%; background: linear-gradient(90deg, #06b6d4, #7c3aed);">
+                </div>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">📱</div>
+              <h3>Développement Mobile</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%; background: linear-gradient(90deg, #8b5cf6, #06b6d4);">
+                </div>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">🤖</div>
+              <h3>Chatbots & IA</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%; background: linear-gradient(90deg, #a855f7, #8b5cf6);">
+                </div>
+              </div>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">📊</div>
+              <h3>Administration de BD</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%; background: linear-gradient(90deg, #c4b5fd, #a855f7);">
+                </div>
+              </div>
+              <span class="skill-percentage">85%</span>
+            </div>
+          </div>
+
+          <!-- Skill Tabs -->
+          <div class="skill-tabs">
+            <button class="skill-tab active" data-category="all">Tous</button>
+            <button class="skill-tab" data-category="dev-web">Dev Web</button>
+            <button class="skill-tab" data-category="dev-mobile">Dev Mobile</button>
+            <button class="skill-tab" data-category="dba-oracle">DBA</button>
+            <button class="skill-tab" data-category="sysadmin">SysAdmin</button>
+            <button class="skill-tab" data-category="chatbot">Chatbot</button>
+          </div>
+
+          <!-- New Subsection for Skill Cards -->
+          <div class="skill-cards-container">
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🟨</span>
+              <h4>JavaScript</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">⚛️</span>
+              <h4>React</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🟢</span>
+              <h4>Vue.js</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🏗️</span>
+              <h4>HTML5</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🎨</span>
+              <h4>CSS3</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🟢</span>
+              <h4>Node.js</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🐍</span>
+              <h4>Python</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🐘</span>
+              <h4>PHP</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">⚛️</span>
+              <h4>Next.js</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🟦</span>
+              <h4>TypeScript</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🟠</span>
+              <h4>Angular</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🎨</span>
+              <h4>TailwindCSS</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🎨</span>
+              <h4>Bootstrap</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🎨</span>
+              <h4>Material UI</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">📦</span>
+              <h4>Webpack</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">⚡</span>
+              <h4>Vite</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">📦</span>
+              <h4>npm/yarn</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🔀</span>
+              <h4>Git</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🎨</span>
+              <h4>Figma</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🐘</span>
+              <h4>Laravel</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🌐</span>
+              <h4>REST</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">📊</span>
+              <h4>GraphQL</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🔐</span>
+              <h4>JWT/OAuth2</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">📊</span>
+              <h4>ELK</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-web">
+              <span class="skill-card-icon">🔑</span>
+              <h4>KeyCloak</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">🗄️</span>
+              <h4>SQL</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">🍃</span>
+              <h4>MongoDB</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">📜</span>
+              <h4>PL/SQL</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">🟠</span>
+              <h4>Oracle</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">🐬</span>
+              <h4>MySQL</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">🐘</span>
+              <h4>PostgreSQL</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dba-oracle">
+              <span class="skill-card-icon">🗄️</span>
+              <h4>SQL Server</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">📱</span>
+              <h4>React Native</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">🤖</span>
+              <h4>Android</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">🦋</span>
+              <h4>Flutter</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">📱</span>
+              <h4>Expo</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">☕</span>
+              <h4>Kotlin</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">📱</span>
+              <h4>Google Play Store</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">📱</span>
+              <h4>Apple App Store</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">📊</span>
+              <h4>Firebase Analytics</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">🐛</span>
+              <h4>Crashlytics</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">💳</span>
+              <h4>Paiement</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">📍</span>
+              <h4>Géolocalisation</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">🔔</span>
+              <h4>Push Notifications</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">✈️</span>
+              <h4>TestFlight</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="dev-mobile">
+              <span class="skill-card-icon">🚀</span>
+              <h4>Fastlane</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">☁️</span>
+              <h4>AWS</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🐳</span>
+              <h4>Docker</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">☁️</span>
+              <h4>Cloud</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">💻</span>
+              <h4>PowerShell</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🐚</span>
+              <h4>Bash</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🖥️</span>
+              <h4>VMware</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🖥️</span>
+              <h4>Hyper-V</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🖥️</span>
+              <h4>VirtualBox</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">📊</span>
+              <h4>Nagios</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">📊</span>
+              <h4>Zabbix</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">📊</span>
+              <h4>SolarWinds</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🔒</span>
+              <h4>Fortigate</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">📁</span>
+              <h4>Active Directory</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">📋</span>
+              <h4>GPO</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🌐</span>
+              <h4>IIS</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🐧</span>
+              <h4>Ubuntu</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="sysadmin">
+              <span class="skill-card-icon">🐧</span>
+              <h4>CentOS</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🤖</span>
+              <h4>Dialogflow</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🐍</span>
+              <h4>Python</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🎯</span>
+              <h4>Machine Learning</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">💬</span>
+              <h4>ChatGPT API</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🔄</span>
+              <h4>Rasa</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🌐</span>
+              <h4>Webhooks</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">📱</span>
+              <h4>WhatsApp API</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">📊</span>
+              <h4>Analytics</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">💬</span>
+              <h4>ManyChat</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🤖</span>
+              <h4>Landbot</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+            <div class="skill-card" data-category="chatbot">
+              <span class="skill-card-icon">🤖</span>
+              <h4>Botpress</h4>
+              <div class="skill-card-bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Distinctions & Récompenses Section -->
+      <section id="awards" class="section awards-section">
+        <div class="container awards-container">
+          <h2>Distinctions & Récompenses</h2>
+          <div class="awards-grid">
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/prix_sos.png" alt="Prix d’encouragement au Concours Génie Tic par équipe au BF" />
+              </div>
+              <div class="award-content">
+                <h3>Prix dans la catégorie Santé</h3>
+                <p class="award-year">2018</p>
+                <p class="award-description">Prix d’encouragement au Concours Génie Tic par équipe (Fabrice OUEDRAOGO &
+                  Ibrahim DERA & Florent BALKOULGA) au BF avec le projet SOS.</p>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/prix_bcpc_1.png"
+                  alt="Premier prix par équipe au Concours Régional de Programmation Informatique au BF." />
+              </div>
+              <div class="award-content">
+                <h3>Premier prix</h3>
+                <p class="award-year">Octobre 2017</p>
+                <p class="award-description">Premier prix par équipe avec Arnaud BAKYONO (Equipe : Les Senpais) au
+                  Concours Régional de Programmation Informatique au BF.</p>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/prix_bcpc_2.png"
+                  alt="Deuxième prix par équipe avec Arnaud BAKYONO (Equipe : Les Senpais) au Concours Régional de Programmation Informatique au BF." />
+              </div>
+              <div class="award-content">
+                <h3>Deuxième prix</h3>
+                <p class="award-year">Mai 2017</p>
+                <p class="award-description">Premier prix par équipe avec Arnaud BAKYONO (Equipe : Les Senpais) au
+                  Concours Régional de Programmation Informatique au BF.</p>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/no_image.jpg"
+                  alt="Lauréat finaliste au Championnat National de Logiques et Mathématiques catégorie C3 au BF." />
+              </div>
+              <div class="award-content">
+                <h3>Lauréat finaliste</h3>
+                <p class="award-year">2015</p>
+                <p class="award-description">Lauréat finaliste au Championnat National de Logiques et Mathématiques
+                  catégorie C3 au BF.</p>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/prix_campus_awards.png" alt="Gagnant des Campus Awards" />
+              </div>
+              <div class="award-content">
+                <h3>Gagnant des Campus Awards</h3>
+                <p class="award-year">2014</p>
+                <p class="award-description">Gagnant des Campus Awards au Salon International de l'Etudiant en Sciences
+                  et Techniques : Mathématiques, physique, informatique, Réseau et télécom au BF</p>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/prix_cmlog.png"
+                  alt="Lauréat finaliste au Championnat National de Logiques et Mathématiques catégorie C2 au BF." />
+              </div>
+              <div class="award-content">
+                <h3>Lauréat finaliste</h3>
+                <p class="award-year">2014</p>
+                <p class="award-description">Lauréat finaliste au Championnat National de Logiques et Mathématiques
+                  catégorie C2 au BF.</p>
+              </div>
+            </div>
+            <div class="award-item">
+              <div class="award-image">
+                <img src="images/no_image.jpg" alt="Lauréat finaliste au Concours de Génies en Herbe en CI." />
+              </div>
+              <div class="award-content">
+                <h3>Lauréat finaliste</h3>
+                <p class="award-year">2008</p>
+                <p class="award-description">Lauréat finaliste au Concours de Génies en Herbe en CI.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects-section">
+        <div class="container projects-container">
+          <h2>Mes Projets</h2>
+          <div class="projects-slider">
+            <div class="projects-slider-track">
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/1-1.png" alt="Projet 1 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/1-2.png" alt="Projet 1 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/1-3.png" alt="Projet 1 - Image 3" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/1-4.png" alt="Projet 1 - Image 4" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Gestion Bancaire et de Transactions Inter-Operator</h3>
+                  <p class="project-description">Développement d'une application web complète de gestion bancaire et de
+                    transactions inter-opérateurs, incluant un système d'authentification sécurisé, un tableau de bord
+                    analytique, une gestion des utilisateurs, et un module de réconciliation des transactions.</p>
+                  <div class="project-tech">
+                    <span>React</span>
+                    <span>Redux</span>
+                    <span>Spring </span>
+                    <span>Oracle</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/2-1.png" alt="Projet 2 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/2-2.png" alt="Projet 2 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/2-3.png" alt="Projet 2 - Image 3" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/2-4.png" alt="Projet 2 - Image 4" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/2-5.png" alt="Projet 2 - Image 5" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/2-6.png" alt="Projet 2 - Image 6" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Site Web Corporatif pour une Entreprise Agroalimentaire </h3>
+                  <p class="project-description">Conception et développement d'un site web vitrine moderne et informatif
+                    pour une entreprise spécialisée dans la transformation de produits agricoles biologiques, mettant en
+                    avant son expertise, ses valeurs, ses processus de production et sa gamme de produits à base de
+                    maïs.</p>
+                  <div class="project-tech">
+                    <span>HTML / CSS</span>
+                    <span>React</span>
+                    <span>MySQL</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/3-1.png" alt="Projet 3 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/3-2.png" alt="Projet 3 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/8-1.jpg" alt="Projet 3 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/8-2.jpg" alt="Projet 3 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Site Web de Restaurant - Liza Food</h3>
+                  <p class="project-description">Conception et développement d'un site web moderne pour un restaurant,
+                    présentant les coordonnées, l'adresse, les recommandations de plats avec leurs prix et notations,
+                    ainsi qu'une plateforme de mise en avant de l'établissement.</p>
+                  <div class="project-tech">
+                    <span>HTML / CSS</span>
+                    <span>React</span>
+                    <span>PWA</span>
+                    <span>MySQL</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/4-1.png" alt="Projet 4 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/4-2.png" alt="Projet 4 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Services Digitaux - Warilo</h3>
+                  <p class="project-description">Conception et développement d'un site web professionnel pour une agence
+                    de services digitaux, mettant en avant son expertise, ses solutions en ligne et son engagement à
+                    aider les clients à améliorer leur présence numérique et développer leur entreprise.</p>
+                  <div class="project-tech">
+                    <span>HTML / CSS</span>
+                    <span>React</span>
+                    <span>PWA</span>
+                    <span>MySQL</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/5-1.jpg" alt="Projet 5 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/5-2.jpg" alt="Projet 5 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Application Mobile de Gestion de Finances Personnelles - Mon Djossi</h3>
+                  <p class="project-description">Développement d'une application mobile intuitive de gestion financière
+                    personnelle, permettant aux utilisateurs de suivre leurs dépenses (djossis), de consulter leur
+                    historique de transactions et de gérer leur budget de manière simple et efficace.</p>
+                  <div class="project-tech">
+                    <span>React Native</span>
+                    <span>Redux</span>
+                    <span>Express.js</span>
+                    <span>JWT</span>
+                    <span>MySQL</span>
+                    <span>AWS</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/6-1.jpg" alt="Projet 6 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/6-2.jpg" alt="Projet 6 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/6-3.jpg" alt="Projet 6 - Image 3" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/6-4.jpg" alt="Projet 6 - Image 4" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Streaming Vidéo</h3>
+                  <p class="project-description">Développement d'une plateforme complète de streaming vidéo (type
+                    Netflix) incluant un système d'authentification, un tableau de bord administrateur pour la gestion
+                    du contenu (films, séries, genres, acteurs), des plans d'abonnement et une interface utilisateur
+                    pour la visualisation et la gestion des favoris.</p>
+                  <div class="project-tech">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MySQL</span>
+                    <span>Redux</span>
+                    <span>JWT</span>
+                    <span>AWS S3</span>
+                    <span>Stripe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/7-1.jpg" alt="Projet 7 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/7-2.jpg" alt="Projet 7 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/7-3.jpg" alt="Projet 7 - Image 3" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/7-4.jpg" alt="Projet 7 - Image 4" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/7-5.jpg" alt="Projet 7 - Image 5" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Gestion de Contenu pour Service de Streaming</h3>
+                  <p class="project-description">Développement d'un panneau d'administration complet pour une plateforme
+                    de streaming, permettant la gestion des genres, des films, des séries, des acteurs, des
+                    réalisateurs, des utilisateurs, des abonnements et du contenu multimédia.</p>
+                  <div class="project-tech">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MySQL</span>
+                    <span>Redux</span>
+                    <span>JWT</span>
+                    <span>AWS S3</span>
+                    <span>Stripe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/9-1.jpg" alt="Projet 9 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/9-2.jpg" alt="Projet 9 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/9-3.jpg" alt="Projet 9 - Image 3" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/9-4.jpg" alt="Projet 9 - Image 4" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/9-5.jpg" alt="Projet 9 - Image 5" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/9-6.jpg" alt="Projet 9 - Image 6" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/9-7.jpg" alt="Projet 9 - Image 7" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Gestion de Médias et de Chatbot - Fasonet</h3>
+                  <p class="project-description">Développement d'un système de gestion de contenu (CMS) complet pour un
+                    groupe de médias en ligne, incluant la gestion d'actualités, de vidéos YouTube, d'un chatbot
+                    WhatsApp, de newsletters, de publicités et d'annonces classées.</p>
+                  <div class="project-tech">
+                    <span>React.js</span>
+                    <span>Node.js</span>
+                    <span>MySQL</span>
+                    <span>Redux</span>
+                    <span>SendGrid</span>
+                    <span>ManyChat</span>
+                    <span>WhatsApp API</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/10-1.jpg" alt="Projet 10 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/10-2.jpg" alt="Projet 10 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/10-3.jpg" alt="Projet 10 - Image 3" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Application de Gestion d'Assurance en Ligne</h3>
+                  <p class="project-description">Développement d'une plateforme web et mobile permettant aux
+                    utilisateurs de gérer leurs contrats d'assurance, de déclarer des sinistres, de demander des
+                    cotations, et de suivre l'état de leurs risques et remboursements.</p>
+                  <div class="project-tech">
+                    <span>React Native</span>
+                    <span>Redux</span>
+                    <span>Nestjs</span>
+                    <span>JWT</span>
+                    <span>MySQL</span>
+                    <span>AWS</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-image">
+                  <img src="images/projects/11.jpeg" alt="Projet 11 - Image 1" />
+                  <div class="zoom-icon">🔍</div>
+                </div>
+                <div class="project-content">
+                  <h3>Service de Chatbot Bancaire et d'Assurance</h3>
+                  <p class="project-description">Développement d'un chatbot intelligent intégré à WhatsApp pour offrir
+                    un service client automatisé et sécurisé pour les services bancaires et d'assurance, permettant aux
+                    utilisateurs d'accéder rapidement à l'information et d'effectuer des opérations de base via
+                    messagerie instantanée.</p>
+                  <div class="project-tech">
+                    <span>API WhatsApp Business</span>
+                    <span>ManyChat</span>
+                    <span>MySQL</span>
+                    <span>Oracle</span>
+                    <span>Spring</span>
+                    <span>Java</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-image">
+                  <img src="images/projects/12.jpeg" alt="Projet 12 - Image 1" />
+                  <div class="zoom-icon">🔍</div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme Multifonctionnelle de Génération de Contenu IA</h3>
+                  <p class="project-description">Développement d'une application conversationnelle intelligente offrant
+                    un accès unifié à plusieurs services de génération de contenu par IA, incluant la génération de
+                    texte (ChatGPT) et d'images, avec une interface intuitive organisée par menus conversationnels.</p>
+                  <div class="project-tech">
+                    <span>API WhatsApp Business</span>
+                    <span>ManyChat</span>
+                    <span>MySQL</span>
+                    <span>Nestjs</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-image">
+                  <img src="images/projects/13.jpeg" alt="Projet 13 - Image 1" />
+                  <div class="zoom-icon">🔍</div>
+                </div>
+                <div class="project-content">
+                  <h3>Application Mobile de Gestion d'Assurance</h3>
+                  <p class="project-description">Développement d'une application mobile complète pour les clients d'une
+                    compagnie d'assurance, permettant la déclaration de sinistres, le suivi des dossiers, la
+                    consultation des notifications et l'accès à un tableau de bord personnalisé avec statistiques et
+                    alertes.</p>
+                  <div class="project-tech">
+                    <span>React Native</span>
+                    <span>Redux</span>
+                    <span>Spring</span>
+                    <span>JWT</span>
+                    <span>PostgreSQL</span>
+                    <span>Java</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-image">
+                  <img src="images/projects/14.jpeg" alt="Projet 14 - Image 1" />
+                  <div class="zoom-icon">🔍</div>
+                </div>
+                <div class="project-content">
+                  <h3>Application de Réservation de Moto-Taxi et Livraison </h3>
+                  <p class="project-description">Développement d'une application de réservation de moto-taxis et de
+                    services de livraison offrant une solution de mobilité fiable et sécurisée pour les déplacements et
+                    l'envoi de colis dans les zones urbaines et périurbaines.</p>
+                  <div class="project-tech">
+                    <span>React Native</span>
+                    <span>Redux</span>
+                    <span>Spring</span>
+                    <span>JWT</span>
+                    <span>MySQL</span>
+                    <span>Java</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-image">
+                  <img src="images/projects/15.jpeg" alt="Projet 15 - Image 1" />
+                  <div class="zoom-icon">🔍</div>
+                </div>
+                <div class="project-content">
+                  <h3>Application de Collecte et Gestion de Fonds</h3>
+                  <p class="project-description">Développement d'une plateforme financière digitale facilitant la
+                    collecte de fonds et offrant un support client multicanaux (appel, SMS) pour assister les
+                    utilisateurs dans leurs opérations financières.</p>
+                  <div class="project-tech">
+                    <span>React Native</span>
+                    <span>Redux</span>
+                    <span>Spring</span>
+                    <span>JWT</span>
+                    <span>MySQL</span>
+                    <span>Java</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-image">
+                  <img src="images/projects/16.png" alt="Projet 16 - Image 1" />
+                  <div class="zoom-icon">🔍</div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Gestion d'Assurance et de Sinistres</h3>
+                  <p class="project-description">Développement d'un système complet de gestion d'assurance permettant
+                    aux administrateurs de gérer les utilisateurs, les droits d'accès, les déclarations de sinistres,
+                    les notifications et les statistiques pour différents types d'assurance (automobile, médicale,
+                    voyage, risques divers).</p>
+                  <div class="project-tech">
+                    <span>React</span>
+                    <span>Docker</span>
+                    <span>Spring</span>
+                    <span>JWT</span>
+                    <span>MySQL</span>
+                    <span>Java</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item">
+                <div class="project-images">
+                  <div class="project-image">
+                    <img src="images/projects/17-1.png" alt="Projet 17 - Image 1" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                  <div class="project-image">
+                    <img src="images/projects/17-2.png" alt="Projet 17 - Image 2" />
+                    <div class="zoom-icon">🔍</div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3>Plateforme de Reporting et d'Analyse Financière</h3>
+                  <p class="project-description">Développement d'une application web sécurisée permettant aux
+                    intermédiaires et partenaires d'accéder à des tableaux de bord financiers, des chiffres d'affaires
+                    par branche, et des outils de reporting avancés pour le suivi des primes, des encaissements et des
+                    performances commerciales.</p>
+                  <div class="project-tech">
+                    <span>React</span>
+                    <span>Docker</span>
+                    <span>Express.js</span>
+                    <span>JWT</span>
+                    <span>MySQL</span>
+                    <span>Oracle</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="projects-prev-btn slider-btn">‹</button>
+            <button class="projects-next-btn slider-btn">›</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Modal for full-screen image gallery -->
+  <div id="image-modal" class="modal">
+    <img id="modal-img" class="modal-content">
+    <div class="modal-gallery">
+      <button class="modal-gallery-nav prev">&lsaquo;</button>
+      <div class="modal-gallery-content">
+        <!-- Les images seront ajoutées dynamiquement ici -->
+      </div>
+      <button class="modal-gallery-nav next">&rsaquo;</button>
+      <div class="modal-gallery-pagination">
+        <!-- Les points de pagination seront ajoutés dynamiquement ici -->
+      </div>
+    </div>
+    <span class="close">&times;</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
