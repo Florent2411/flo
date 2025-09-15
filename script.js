@@ -97,8 +97,8 @@ const navLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
 
 const observerOptions = {
   root: null,
-  rootMargin: '0px',
-  threshold: 0.5
+  rootMargin: '-50px 0px -50px 0px',
+  threshold: 0.1
 };
 
 const navObserver = new IntersectionObserver((entries) => {
