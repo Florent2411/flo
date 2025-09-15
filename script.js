@@ -4,26 +4,29 @@ document.addEventListener('DOMContentLoaded', () => {
   const prevBtn = document.querySelector('.prev-btn');
   const nextBtn = document.querySelector('.next-btn');
   const items = document.querySelectorAll('.award-item');
-  const itemWidth = items[0].getBoundingClientRect().width + 25; // width + gap
-  let currentIndex = 0;
 
-  function updateSlider() {
-    track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+  if (track && prevBtn && nextBtn && items.length > 0) {
+    const itemWidth = items[0].getBoundingClientRect().width + 25; // width + gap
+    let currentIndex = 0;
+
+    function updateSlider() {
+      track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateSlider();
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentIndex < items.length - 1) {
+        currentIndex++;
+        updateSlider();
+      }
+    });
   }
-
-  prevBtn.addEventListener('click', () => {
-    if (currentIndex > 0) {
-      currentIndex--;
-      updateSlider();
-    }
-  });
-
-  nextBtn.addEventListener('click', () => {
-    if (currentIndex < items.length - 1) {
-      currentIndex++;
-      updateSlider();
-    }
-  });
 });
 
 // Loading screen logic
