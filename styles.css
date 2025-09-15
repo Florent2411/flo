@@ -470,11 +470,6 @@ html, body {
   align-items: flex-start;
 }
 
-.about-left {
-  flex: 1 1 500px;
-  max-width: 500px;
-}
-
 .about-profile-img {
   width: 100%;
   background: linear-gradient(135deg, #FFFFFF, #D0E8FF);
@@ -1686,7 +1681,7 @@ html {
 }
 
 .btn-secondary:hover {
-  background: #06b6d4;
+  background: #fff;
   color: #0f172a;
   transform: scale(1.05);
 }
