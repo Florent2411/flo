@@ -1275,6 +1275,38 @@ html, body {
   background-color: #06B6D4;
 }
 
+/* Google Translate Widget Styles */
+#google_translate_element {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid red; /* Temporary debugging border */
+  min-height: 50px; /* Ensure minimum height */
+}
+
+#google_translate_element select {
+  background: #fff;
+  border: 1px solid #06B6D4;
+  border-radius: 4px;
+  padding: 5px;
+  color: #000;
+}
+
+#google_translate_element .goog-te-gadget-simple {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #06B6D4;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #000;
+}
+
+#google_translate_element .goog-te-gadget-simple:hover {
+  background: #06B6D4;
+  color: #fff;
+}
+
 .dropdown-menu {
   list-style: none;
   padding-left: 20px;
